@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=0.1
+Name=DICOM Inspector
+Comment=Inspect DICOM headers
+Exec=python -m dicominspect.run %U
+Terminal=false
+Type=Application
+Categories=Utility;Application;
