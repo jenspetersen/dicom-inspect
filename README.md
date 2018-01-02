@@ -1,2 +1,2 @@
-# dicominspect
+# dicom-inspect
 DICOM header inspector
