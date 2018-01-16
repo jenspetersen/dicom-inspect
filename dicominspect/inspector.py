@@ -11,7 +11,7 @@ class Inspector(QtWidgets.QTextEdit):
 
         super(Inspector, self).__init__(parent)
         self._parent = parent
-        self.setReadOnly(True)
+        self.setReadOnly(False)
 
         if fname is not None and type(fname) == str:
             self.show_header(fname)
